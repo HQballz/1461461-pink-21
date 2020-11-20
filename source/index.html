@@ -13,7 +13,7 @@
         <button class="main-nav__toggle" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
-        <ul class="main-nav__list">
+        <ul class="main-nav__list visually-hidden">
           <li class="main-nav__list"><a href="#">Главная</a></li>
           <li class="main-nav__list"><a href="catalog.html">Фотографии</a></li>
           <li class="main-nav__list"><a href="#">Конкурс</a></li>
@@ -35,6 +35,7 @@
             <a href="">Android</a>
             <a href="">Windows</a>
           </div>
+          <p class="intro__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
         </div>
       </section>
 
@@ -79,10 +80,16 @@
           </li>
         </ul>
 
-        <ul class="reviews__toggle">
-          <li class="reviews__toggle-item"></li>
-          <li class="reviews__toggle-item"></li>
-          <li class="reviews__toggle-item"></li>
+        <ul class="toggle reviews__toggle">
+          <li class="toggle__item">
+            <button class="toggle" type="button"></button>
+          </li>
+          <li class="toggle__item">
+            <button class="toggle" type="button"></button>
+          </li>
+          <li class="toggle__item">
+            <button class="toggle" type="button"></button>
+          </li>
         </ul>
       </section>
 
@@ -172,14 +179,14 @@
           </table>
         </div>
 
-        <ul class="tariffs__toggle">
-          <li class="tariffs__toggle-item">
+        <ul class="toggle tariffs__toggle">
+          <li class="toggle__item">
             <button class="toggle" type="button"></button>
           </li>
-          <li class="tariffs__toggle-item">
+          <li class="toggle__item">
             <button class="toggle" type="button"></button>
           </li>
-          <li class="tariffs__toggle-item">
+          <li class="toggle__item">
             <button class="toggle" type="button"></button>
           </li>
         </ul>
@@ -188,10 +195,15 @@
       <section class="contacts">
         <div class="contacts__text">
           <h2 class="contacts__title">Остались вопросы? Свяжитесь с нами!</h2>
-          <p class="contacts__number"><a class="link" href="tel:+78125556666"></a> +7 (812) 555-66-66</p>
-          <p class="contacts__mail"><a class="link" href="mailto:mail@htmlacademy.ru"></a>mail@htmlacademy.ru</p>
-          <p class="contacts__adress"><a class="link" href="https://www.google.com/maps/@59.9387407,30.3226754,19.24z"></a> ул. Большая
-            Конюшенная, 19/8</p>
+          <p class="contacts__number">
+            <a class="link" href="tel:+78125556666">+7 (812) 555-66-66</a>
+          </p>
+          <p class="contacts__mail">
+            <a class="link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+          </p>
+          <p class="contacts__adress">
+            <a class="link" href="https://www.google.com/maps/@59.9387407,30.3226754,19.24z">ул. Большая Конюшенная, 19/8</a>
+          </p>
         </div>
 
         <div class="contacts__map">
@@ -211,7 +223,7 @@
 
       <div class="footer__copyright copyright">
         <b class="copyright__text">Разработано</b>
-        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive" aria-label="HTML Academy"></a>
+        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive" aria-label="HTML Academy"><span class="visually-hidden">html academy</span></a>
       </div>
     </footer>
   </body>
